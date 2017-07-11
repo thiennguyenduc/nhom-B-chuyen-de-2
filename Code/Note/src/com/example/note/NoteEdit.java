@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -146,12 +147,15 @@ public class NoteEdit extends Activity{
 	    		if(mRowId != null){
 	    			mDbHelper.deleteNote(mRowId);
 	    		}
-	    		finish();
-		    	
+	    		//finish();
+	    		Intent i = new Intent(this, NoteList.class);
+	            startActivity(i);
 		        return true;
 		    case R.id.menu_save:
 	    		saveState();
-	    		finish();	    	
+	    		//finish();
+	    		Intent i2 = new Intent(this, NoteList.class);
+	            startActivity(i2);
 		    default:
 		    	return super.onOptionsItemSelected(item);
 		    }
