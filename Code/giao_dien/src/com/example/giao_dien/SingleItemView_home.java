@@ -126,15 +126,6 @@ public class SingleItemView_home extends Activity implements NavigationDrawerFra
 		actionBar.setTitle(mTitle);
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		if (!mNavigationDrawerFragment.isDrawerOpen()) {
-			getMenuInflater().inflate(R.menu.main, menu);
-			restoreActionBar();
-			return true;
-		}
-		return super.onCreateOptionsMenu(menu);
-	}
 
 	public static class PlaceholderFragment extends Fragment {
 

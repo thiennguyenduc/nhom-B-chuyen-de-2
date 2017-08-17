@@ -125,17 +125,7 @@ public class SingleItemView_Nguoibenh extends Activity implements NavigationDraw
 		actionBar.setDisplayShowTitleEnabled(true);
 		actionBar.setTitle(mTitle);
 	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		if (!mNavigationDrawerFragment.isDrawerOpen()) {
-			getMenuInflater().inflate(R.menu.main, menu);
-			restoreActionBar();
-			return true;
-		}
-		return super.onCreateOptionsMenu(menu);
-	}
-
+	
 	public static class PlaceholderFragment extends Fragment {
 
 		private static final String ARG_SECTION_NUMBER = "section_number";
