@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.giao_dien"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.giao_dien.Getting_start"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.android.myproject1.Mainsrceen" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+        </activity>
+        <activity 
+            android:name="com.example.giao_dien.Mainsrceen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.example.giao_dien.Home"
+            android:label="Trang chính">
+        </activity>
+        <activity 
+            android:name="com.example.giao_dien.SingleItemView_home"
+            android:label="hướng dẫn nấu ăn" >
+        </activity>
+        <activity 
+            android:name="com.example.giao_dien.SingleItemView_nguyenlieu"
+            android:label="Chi tiết cửa hàng thức ăn sạch" >
+        </activity>
+        <activity 
+            android:name="com.example.giao_dien.Nguoi_benh"
+            android:label="Chế độ cho người bệnh" >
+        </activity>
+        <activity 
+            android:name="com.example.giao_dien.SingleItemView_Nguoibenh" 
+            android:label="Chi tiết chế độ cho người bệnh">
+        </activity>
+        <activity 
+            android:name="com.example.giao_dien.Nguoi_Beo"
+            android:label="Chế độ cho người béo" >
+        </activity>
+        <activity 
+            android:name="com.example.giao_dien.SingleItemView_Nguoibeo"
+            android:label="Chi tiết chế độ cho người béo" >
+        </activity>
+        <activity 
+            android:name="com.example.giao_dien.SingleItemView_nguoigay"
+            android:label="Chi tiết chế độ cho người gầy" >
+        </activity>
+        <activity 
+            android:name="com.example.giao_dien.Nguoi_Gay"
+            android:label="Chế độ cho người gầy" >
+        </activity>
+        <activity 
+            android:name="com.example.giao_dien.nguyen_lieu"
+            android:label="Địa chỉ nguyên liệu sạch" >
+        </activity>
+        <activity
+            android:name="com.example.giao_dien.Mainbmi"
+            android:label="Tính chỉ số BMI" >
+        </activity>
+        <activity
+            android:name="com.example.giao_dien.NoteEdit"
+            android:label="Ghi chú" >
+        </activity>
+        <activity
+            android:name="com.example.giao_dien.NoteList"
+            android:label="Lịch sử ghi chú" >
+        </activity>
+        <activity
+            android:name="com.example.giao_dien.NoteRow"
+            android:label="Ghi chú" >
+        </activity>
+        <activity
+            android:name="com.example.giao_dien.Mainlsbmi"
+            android:label="Lịch sử BMI" >
+        </activity>
+    </application>
+
+</manifest>
