@@ -16,11 +16,6 @@
         <activity
             android:name="com.example.giao_dien.Getting_start"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="com.android.myproject1.Mainsrceen" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            
         </activity>
         <activity 
             android:name="com.example.giao_dien.Mainsrceen">
@@ -34,22 +29,28 @@
             android:label="Trang chính">
         </activity>
         <activity 
-            android:name="com.example.giao_dien.SingleItemView_home" >
+            android:name="com.example.giao_dien.SingleItemView_home"
+            android:label="Chi tiết món ăn" >
         </activity>
         <activity 
             android:name="com.example.giao_dien.Nguoi_benh"
             android:label="Chế độ cho người bệnh" >
         </activity>
         <activity 
-            android:name="com.example.giao_dien.SingleItemView_Nguoibenh" >
+            android:name="com.example.giao_dien.SingleItemView_Nguoibenh"
+            android:label="Chi tiết chế độ cho người bệnh" >
         </activity>
         <activity 
             android:name="com.example.giao_dien.Nguoi_Beo"
             android:label="Chế độ cho người béo" >
         </activity>
-        <activity android:name="com.example.giao_dien.SingleItemView_Nguoibeo" >
+        <activity 
+            android:name="com.example.giao_dien.SingleItemView_Nguoibeo"
+            android:label="Chi tiết chế độ cho người béo" >
         </activity>
-        <activity android:name="com.example.giao_dien.SingleItemView_nguoigay" >
+        <activity 
+            android:name="com.example.giao_dien.SingleItemView_nguoigay"
+            android:label="Chi tiết chế độ cho người gầy" >
         </activity>
         <activity 
             android:name="com.example.giao_dien.Nguoi_Gay"
