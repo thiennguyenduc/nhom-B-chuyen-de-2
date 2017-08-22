@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backr_chung"
+    android:gravity="top">
+    
+    
+
+    <ImageView
+        android:id="@+id/imagesieuthi"
+         android:layout_width="100dp"
+	    android:layout_height="70dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginTop="20dp"
+	    android:background="@android:color/white"
+	    android:padding="1dp" />
+
+        <TextView
+            android:id="@+id/textViewten"
+              android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="150dp"
+	        android:layout_marginTop="50dp"
+	        android:textColor="@android:color/white"
+	        android:textSize="30dp" />
+	
+        <TextView
+	    android:id="@+id/countrytext"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Nguyên liệu :" 
+	    android:layout_marginTop="120dp"
+	    android:layout_marginLeft="25dp"
+	    android:textColor="@android:color/white" />
+        
+    <TextView
+        android:id="@+id/textViewmota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rank"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
