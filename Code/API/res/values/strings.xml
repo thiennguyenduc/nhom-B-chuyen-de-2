@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hướng dẫn nấu ăn</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Ghi chú</string>
+    <string name="title_section3">Hướng dẫn nấu ăn</string>
+    <string name="title_section4">Chế độ cho người béo</string>
+    <string name="title_section5">Chế độ cho người gầy</string>
+    <string name="title_section6">Chế độ cho người bệnh</string>
+    <string name="title_section7">Tính chỉ số BMI</string>
+    <string name="title_section8">Địa chỉ nguyên liệu sạch</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="tcb">Nhập tên của bạn</string>
+    <string name="cccb">Chiều cao của bạn</string>
+    <string name="cncb">Cân nặng của bạn</string>
+    <string name="bmi">Tính BMI</string>
+    <string name="x">Thử lại</string>
+    <string name="title">Tiêu đề : </string>
+    <string name="menu_delete">Xóa ghi chú</string>
+    <string name="no_title">Không có tiêu đề</string>
+    <string name="edit_note">sửa ghi chú</string>
+    <string name="save_menu_noteedit">Lưu</string>
+    <string name="delete_menu_noteedit">Xóa</string>
+    <string name="ls">Lịch sử</string>
+    <string name="tb">Nhập họ và tên của bạn</string>
+    <string name="cc">Nhập chiều cao của bạn(m) VD: 150cm = 1.50m</string>
+    <string name="cn">Nhập cân nặng của bạn(Kg)</string>
+    <string name="csbmi">BMI</string>
+    <string name="kq">Chuẩn đoán</string>
+    <string name="l">Luu</string>
+    <string name="title_activity_main">Filter ListView Images</string>
+    <string name="ranklabel">"Tên cửa hàng : "</string>
+    <string name="countrylabel">"Địa chỉ : "</string>
+    <string name="populationlabel">"Sdt : "</string>
+    <string name="title_activity_tween_animation">Tween Animation Activity</string>
+    <string name="title_activity_view_animation">View Animation Activity</string>
+    <string name="line">----------------------</string>
+    <string name="no_height">Không có cân nặng</string>
+    <string name="no_result">Không có kết quả</string>
+    <string name="no_guest">Không có chuẩn đoán</string>
+
+</resources>
